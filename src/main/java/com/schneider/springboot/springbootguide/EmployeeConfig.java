@@ -11,6 +11,7 @@ import java.util.List;
 
 @Configuration
 public class EmployeeConfig {
+    
     @Bean
     CommandLineRunner commandLineRunner(EmployeeRepository employeeRepository) {
 
